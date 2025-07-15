@@ -1,4 +1,5 @@
 """
+Arayüz olmadan yapılan bakım sayısını terminalden gösteren kod
 import gymnasium as gym
 import pandas as pd
 import numpy as np
