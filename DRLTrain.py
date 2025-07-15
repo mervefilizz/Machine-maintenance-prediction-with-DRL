@@ -122,7 +122,7 @@ class DQNAgent:
 
         return loss.item()
 
-    def train(self, episodes, save_path='dqn_pdm.pth'):
+    def train(self, episodes, save_path='dqn_pdm1.pth'):
         rewards = []
         for ep in range(episodes):
             obs, _ = self.env.reset()
